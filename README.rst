@@ -19,20 +19,8 @@ documentation](https://www.python.org/dev/peps/pep-0382/) for details.
 Package content
 ===============
 
-Common utilities, and standardized services.
-
-**cli** 
-    helpers for argparse, adding commonly needed command line options and 
-    output settings
-
-**log** 
-    add helpers for logging and common basic settings
-
-**simpleconfig** 
-    some extensions for configuration files handling
-
-**raspi** 
-    usefull stuff for the RaspberryPi
+Helpers for the RaspberryPi context, basically dealing with I2C bus resources access at the time
+of writing.
 
 Installation
 ============
