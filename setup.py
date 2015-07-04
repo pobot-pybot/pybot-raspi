@@ -4,6 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(name='pybot_raspi',
+      namespace_packages=['pybot'],
       version='1.0',
       description='PyBot extension for Raspberry Pi support',
       install_requires=['pybot_core'],
