@@ -3,11 +3,11 @@
 
 from setuptools import setup, find_packages
 
-setup(name='pybot_raspi',
+setup(name='pybot-raspi',
       namespace_packages=['pybot'],
       version='1.0',
       description='PyBot extension for Raspberry Pi support',
-      install_requires=['pybot_core'],
+      install_requires=['pybot-core'],
       license='LGPL',
       author='Eric Pascual',
       author_email='eric@pobot.org',
