@@ -8,7 +8,7 @@ import os
 # make it possible to import this module on non-RasPi platform when generating documentation
 if 'AUTO_DOC' not in os.environ:
     import platform
-    if not platform.machine().startswith('armv6'):
+    if not platform.machine().startswith('armv'):
         raise ImportError('can be imported on Raspberry Pi only')
 
     from .i2c import *
