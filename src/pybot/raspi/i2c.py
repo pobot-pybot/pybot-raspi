@@ -7,9 +7,9 @@ The module level variable ``i2c_bus`` provides an instance of :py:class:`smbus.S
 for an easy access to the I2C features.
 """
 
-__author__ = 'Eric Pascual'
-
 import re
+
+__author__ = 'Eric Pascual'
 
 
 def _get_i2c_bus_id():
