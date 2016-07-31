@@ -2,4 +2,7 @@
 dist/
 *.egg-info
 
-build
+buildfabfile.py
+fabfile.py
+build/ dist/
+RELEASE-VERSION
