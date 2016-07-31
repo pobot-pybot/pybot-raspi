@@ -1,12 +1,11 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-from git_version import git_version
 
 setup(name='pybot-raspi',
       namespace_packages=['pybot'],
-      version=git_version(),
+      setup_requires=['setuptools_scm'],
+      use_scm_version=True,
       description='PyBot extension for Raspberry Pi support',
       install_requires=['pybot-core'],
       license='LGPL',
