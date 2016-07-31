@@ -1,8 +1,6 @@
 *.pyc
-dist/
 *.egg-info
-
-buildfabfile.py
 fabfile.py
-build/ dist/
+build/
+dist/
 RELEASE-VERSION
